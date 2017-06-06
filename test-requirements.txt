@@ -1,0 +1,11 @@
+six
+pbr
+coverage
+nose
+mock
+flake8
+sphinx
+vext
+vext.gi
+vext.pygtk
+ruamel.venvgtk
