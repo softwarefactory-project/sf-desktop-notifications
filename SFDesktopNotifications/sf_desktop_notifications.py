@@ -115,7 +115,7 @@ def on_message(filters):
         LOGGER.debug(message)
         try:
             jmsg = json.loads(msg.payload)
-        except:
+        except Exception:
             LOGGER.error('could not translate %s' % msg.payload)
             return
         n = None
